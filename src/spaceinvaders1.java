@@ -88,6 +88,9 @@ public class spaceinvaders1 extends Application{
             Sprite s = (Sprite) n;
             return s.dead;
         });
+        if (t>2){
+            t=0;
+        }
 
     }
 
